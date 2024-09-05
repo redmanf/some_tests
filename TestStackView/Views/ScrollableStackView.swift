@@ -15,9 +15,7 @@ protocol ScrollableStackViewProtocol {
     var views:[SupportsScrollableStack] {get}
     
     init(frame:CGRect, views:[SupportsScrollableStack])
-    
     // Yet another feature
-    
     func append(view:SupportsScrollableStack)
     func remove(view:SupportsScrollableStack)
 }
@@ -29,6 +27,8 @@ final class ScrollableStackView: UIScrollView, ScrollableStackViewProtocol, Supp
             updateStackView()
         }
     }
+    
+    // New Fix
     
     private var stackView:UIStackView!
     private var constantsAreSet = false
