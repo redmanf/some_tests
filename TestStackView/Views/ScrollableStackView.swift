@@ -28,6 +28,8 @@ final class ScrollableStackView: UIScrollView, ScrollableStackViewProtocol, Supp
         }
     }
     
+    // New Fix
+    
     private var stackView:UIStackView!
     private var constantsAreSet = false
     
