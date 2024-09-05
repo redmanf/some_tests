@@ -8,7 +8,7 @@
 import UIKit
 
 protocol SupportsScrollableStack:UIView {
-    // Another Feature in Main
+    // SOme feature is added
 }
 
 protocol ScrollableStackViewProtocol {
