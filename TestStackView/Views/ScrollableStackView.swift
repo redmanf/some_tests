@@ -16,6 +16,8 @@ protocol ScrollableStackViewProtocol {
     
     init(frame:CGRect, views:[SupportsScrollableStack])
     
+    // Yet another feature
+    
     func append(view:SupportsScrollableStack)
     func remove(view:SupportsScrollableStack)
 }
