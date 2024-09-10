@@ -23,8 +23,8 @@ class TestViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let test:[MyContent] = (0...10).map {(int)->MyContent in
-            MyContent(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
+        let test:[MyContent] = (0...1000).map {(int)->MyContent in
+            MyContent(frame: CGRect(x: 0, y: 0, width: 30, height: 50))
         }
         
         let scroll = ScrollableStackView(frame: view.frame, views: test)
